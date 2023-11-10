@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(ProjectDir)..\..\Common.Configurations.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationService.Data.Provider.MsSql.Ef\NotificationService.Data.Provider.MsSql.Ef.csproj" />
+    <ProjectReference Include="..\NotificationService.Data.Provider\NotificationService.Data.Provider.csproj" />
+    <ProjectReference Include="..\NotificationService.Mappers\NotificationService.Mappers.csproj" />
+    <ProjectReference Include="..\NotificationService.Models.Db\NotificationService.Models.Db.csproj" />
+    <ProjectReference Include="..\NotificationService.Models.Dto\NotificationService.Models.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

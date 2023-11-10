@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(ProjectDir)..\..\Common.Configurations.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\NotificationService.Broker\NotificationService.Broker.csproj" />
+    <ProjectReference Include="..\NotificationService.Data\NotificationService.Data.csproj" />
+    <ProjectReference Include="..\NotificationService.Models.Dto\NotificationService.Models.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
